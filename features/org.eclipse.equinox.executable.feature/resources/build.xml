@@ -136,6 +136,7 @@
 		<antcall target="rootFileslinux_gtk_aarch64"/>
 		<antcall target="rootFileslinux_gtk_x86_64"/>
 		<antcall target="rootFileslinux_gtk_riscv64"/>
+		<antcall target="rootFileslinux_gtk_loongarch64"/>
 	</target>
 
 	<target name="zip.distribution" depends="init" description="Create a zip containing all the plug-ins and features for the feature: org.eclipse.platform.launchers.">
